@@ -8,7 +8,10 @@
 5. For adding new features to this project, please create a new branch by entering `git checkout -b <branch-name>`. Example: Let us assume we are developing a login page feature. Then we can create a branch by `git checkout -b feature/login-page`
 6. After making modifications, when the feature is ready enter `git add .`, `git commit -m "<meaningful message for which the commit is made>`
 7. After commit, please push the branch to the remote origin by entering `git push origin <branch-name>`. Example: for our login-page branch mentioned above, we should write `git push origin feature/login-page`
-8. Then we can merge this feature to our master branch, if everything is good. Please do not push anything directly to the master branch as a good practice.
+8. Then we can merge this feature to our master branch, if everything is good. 
+
+Note: Please do not push anything directly to the master branch as a good practice. Please use `git status` command to see the current status of the project (and it also provides valuable information about next steps to be taken).
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
